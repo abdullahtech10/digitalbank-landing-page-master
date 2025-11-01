@@ -47,10 +47,17 @@ nav {
     gap: 1rem;
 }
 
+
 a {
     text-decoration: none;
     color: var(--Gray-600);
     font-weight: 500;
+}
+
+.links a:hover{
+
+    text-decoration: underline;
+    color: var(--Green-500);
 }
 
 button {
